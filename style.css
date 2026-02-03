@@ -1,21 +1,75 @@
+/* Sambalpuri Saree Metadata Namespace
+   Minimal academic styling
+*/
+
 body{
-font-family:Arial;
-margin:40px;
-background:#fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px;
+    background:#fafafa;
+    color:#222;
+    line-height:1.6;
 }
+
+/* Headings */
+
+h1{
+    color:#5a1c2f;
+    border-bottom:2px solid #5a1c2f;
+    padding-bottom:6px;
+}
+
+h2{
+    margin-top:25px;
+    color:#333;
+}
+
+/* Links */
+
+a{
+    color:#5a1c2f;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Tables for metadata listing */
 
 table{
-border-collapse:collapse;
-width:100%;
+    border-collapse:collapse;
+    width:100%;
+    margin-top:20px;
+    background:white;
 }
 
-th,td{
-border:1px solid #ccc;
-padding:10px;
-text-align:left;
+th, td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:left;
 }
 
 th{
-background:#5a1c2f;
-color:white;
+    background:#5a1c2f;
+    color:white;
+}
+
+/* Lists */
+
+ul{
+    margin-left:20px;
+}
+
+/* Namespace info box */
+
+p strong{
+    color:#000;
+}
+
+/* Back link spacing */
+
+p a{
+    display:inline-block;
+    margin-top:20px;
 }
